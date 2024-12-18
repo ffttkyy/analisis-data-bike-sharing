@@ -29,8 +29,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-hour_data = pd.read_csv('hour.csv')
-day_data = pd.read_csv('day.csv')
+hour_data = pd.read_csv('dashboard/hour.csv')
+day_data = pd.read_csv('dashboard/day.csv')
 
 # Streamlit Dashboard
 st.title("Dashboard Analisis Penyewaan Sepeda")
